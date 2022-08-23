@@ -1,0 +1,74 @@
+.todoPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoPage .todo_head{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.todo_card{
+    padding: 2rem;
+    width: 55%;
+    border-radius: 1rem;
+    min-width: 30rem;
+    background-color:  rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_card input{
+    padding: 8px 1rem;
+    margin: 1rem 0;
+}
+
+.todo_card button{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo_list{
+    margin-top: 2rem;
+}
+
+.todo_list h1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.todo_item{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(150, 150, 150);
+    border-radius: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.todo_content{
+    max-width: 75%;
+    font-size: 1.9rem;
+    word-wrap: break-word;
+}
+
+.todo_btns{
+    min-width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo_btns button{
+    padding: 8px 1rem;
+    border-radius: 8px;
+}
